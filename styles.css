@@ -1,0 +1,71 @@
+/* General Page Styling */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+header,
+main,
+footer {
+  max-width: 900px;
+  margin: auto;
+  padding: 1rem;
+}
+
+/* Header */
+header {
+  text-align: center;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 1rem;
+}
+
+/* Section Styling */
+section {
+  margin-top: 2rem;
+  background-color: #fff;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+
+/* Features List */
+.features ul {
+  list-style-type: square;
+  margin: 0;
+  padding-left: 1.5rem;
+}
+
+/* Card Container */
+.card-container {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+/* Card Styling - Demonstrates the Box Model */
+.card {
+  background-color: #e3f2fd;
+  border: 2px solid #90caf9;
+  padding: 1rem;
+  margin: 0.5rem;
+  flex: 1 1 calc(50% - 1rem);
+  box-sizing: border-box;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  margin-top: 2rem;
+  border-top: 2px solid #ccc;
+  padding-top: 1rem;
+}
+
+/* Headings */
+h1,
+h2,
+h3 {
+  margin-top: 0;
+}
